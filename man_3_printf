@@ -1,0 +1,19 @@
+.TH PRINTF
+.SH NAME
+printf \- produces outputs according to a format
+.SH SYNOPSIS
+.B printf
+\fIFORMAT\fR [\fIARGUMENT\fR]
+.B printf
+\fIOPTION\fR
+.SH DESCRIPTION
+.B printf
+produces output according to a format.
+.SH FORMAT
+The format is a character string. It is made up of directives. The directives are oridinary characters; excluding the % character, which are copied to output stream and conversion specifications (man7.org). Conversion specification are precedded by the % character, ending with conversion specifier. 
+
+Arguements must correspond with the conversion specifier. Arguements used in the order given.  q
+.TP
+.BR \ \-\-bits =\fIBITS\fR
+Set the number of bits to modify.
+Default is one bit.
