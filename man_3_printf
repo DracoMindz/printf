@@ -14,6 +14,4 @@ The format is a character string. It is made up of directives. The directives ar
 
 Arguements must correspond with the conversion specifier. Arguements used in the order given.  q
 .TP
-.BR \ \-\-bits =\fIBITS\fR
-Set the number of bits to modify.
-Default is one bit.
+.BR \ \\fI\fR
