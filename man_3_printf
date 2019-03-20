@@ -23,5 +23,7 @@ An int arguement converts to signed deciaml notation. Gives minimum number of di
 If no 1 modifier is present, int  argument converted to an unsigned character; resulting character printed. Output char type conversion specifier.
 .TP
 .BR \ s \fR
-Output string type conversion specifier. Chracters from the array are written up to, but not including, a terminating null byte ('\0). 
- 
+Output string type conversion specifier. Chracters from the array are written up to, but not including, a terminating null byte. 
+.TP
+.BR \ % \fR
+A '%' is written.  No arguement is converted. Conversion specification is '%%'.
